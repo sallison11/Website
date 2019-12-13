@@ -1,0 +1,106 @@
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #385694;
+    margin-left: -8;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: "verdana", verdana;
+    font-weight: 100;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: white;
+} 
+
+.topnav a:hover {
+    background-color: lightslategray;
+}
+
+body {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+div {
+    font-family: "verdana";
+    margin-left: 40;
+    margin-right: 40;
+    font-size: 20;
+    text-align: center;
+    color: #001a00;
+    margin-bottom: 20;
+}
+
+.educationtitle {
+    font-size: 30;
+    text-align: center;
+    color: #485C8A;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10;
+    border-bottom: 1px solid #485C8A
+}
+
+.worktitle {
+    text-align: center;
+    font-size: 30;
+    color: #485C8A;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10;
+    border-bottom: 1px solid #485C8A
+}
+
+.leadershiptitle {
+    text-align: center;
+    font-size: 30;
+    color: #485C8A;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10;
+    border-bottom: 1px solid #485C8A
+}
+
+.skillstitle {
+    text-align: center;
+    font-size: 30;
+    color: #485C8A;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10;
+    border-bottom: 1px solid #485C8A
+}
+
+.col-2 {
+    float: left;
+    width: 50%;
+    margin: auto;
+}
+
+.row{
+    width: 70%;
+    margin: auto;
+    padding-top: 200;
+}
+
+
+
+.resumeelement{
+    padding-bottom:40px;
+    margin:0;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,113 @@
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #385694;
+    margin-left: -8;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: "verdana", verdana;
+    font-weight: 100;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: white;
+} 
+
+.topnav a:hover {
+    background-color: lightslategray;
+}
+
+body {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+div {
+
+    font-family: "verdana", verdana;
+}
+
+.more {
+    font-size: 45;
+    margin-top: 200;
+    text-align: center;
+    color: #385694;
+}
+
+.talk {
+    font-size: 35;
+    margin-top: 20;
+    text-align: center;
+    color: #385694;
+}
+
+hr {
+    margin-top: 20;
+    margin-bottom: 20;
+    border:0;
+    border-top: 1px solid #385694;
+    width: 70%;
+}
+
+.mailpic {
+    margin-top: 20;
+    text-align: center;
+}
+
+.email{
+    height: 50;
+}
+
+.emailaddress {
+    text-align: center;
+    margin-top: 15;
+    font-size: 20;
+    font-family: "verdana";
+    color: #385694;
+}
+
+.mailhref {
+    color: #385694;;
+}
+
+.phonepic {
+    margin-top: 35;
+    text-align: center;
+}
+
+.phonenum {
+    height: 50;
+}
+
+.phonenumber {
+    margin-top: 25;
+    font-family: "verdana";
+    font-size: 20;
+    text-align: center;
+    color: #385694;
+}
+
+.facebook {
+    padding-left: 20;
+    height: 60;
+}
+
+.elsewhere {
+    font-size: 30;
+    margin-top: 30;
+    text-align: center;
+    color: #385694;
+}
+
+.linked {
+    margin-top: 25;;
+    height: 60;
+}

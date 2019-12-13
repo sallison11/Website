@@ -1,0 +1,53 @@
+
+body {
+    
+    background-size: cover;
+    background-image: url("blueback.png");
+    background-position: center;
+    
+}
+
+.topnav {
+    margin-left: -8;
+    position: relative;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: "verdana", verdana;
+    font-weight: 100;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: white;
+} 
+
+.topnav a:hover {
+    background-color: lightslategray;
+}
+
+.me {
+    text-align: center;
+    margin-top: 150;
+}
+
+.actualpic {
+    height: 60%;
+}
+
+
+.name {
+    margin: 1%;
+    color: white;
+    font-size: 300%;
+    letter-spacing: 3px;
+    font-family: "verdana";
+    text-align: center;
+}
